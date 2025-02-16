@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Quest for the Ultimate Taste</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #d63384;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .interactive {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #d63384;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #b02a6b;
+        }
+        img {
+            width: 400px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>The Quest for the Ultimate Taste: A Culinary Mystery at IIT Bhilai</h1>
+        
+        <div class="section" id="intro">
+            <h2>Introduction</h2>
+            <p> It all started on a lazy evening in the IIT Bhilai cafeteria, where a heated debate was brewing—not about academics or technology, but about food and eventually turned into an intriguing investigation.... A group of students sat around a table, each passionately. </p>
+            <p><q style="font-style: italic;">Nothing beats a plate of butter naan with rich, creamy paneer butter masala! </q>one declared.</p>
+
+            <p><q style="font-style: italic;">You haven't lived until you've had a perfectly crispy dosa with coconut chutney</q>, argued another.</p>
+                
+            <p><q style="font-style: italic;">Forget all that! A cheesy slice of pizza is the true comfort food! 
+            </q>a third countered.</p>
+            This lively discussion turned into a full-fledged debate as more students chimed in with their preferences. Some swore by the fiery goodness of spicy dishes, while others preferred the delicate balance of sweet and savory flavors. Amidst the chaos, I had a realization—why not settle this once and for all with real data?
+
+            Was North Indian cuisine truly the undisputed king? Did everyone really prefer spicy food, or was it just a loud minority making their voices heard? And what about gender-based differences—did men and women lean towards different flavors and cuisines?</p>
+            <image src="Images/output6.png" width="50" height="50"></image>
+            <button onclick="showSection('mission')">Next</button>
+
+        </div>
+
+        <div class="section" id="mission" style="display: none;">
+            <h2>The Mission Begins: Gathering the Data</h2>
+            <p>Determined to uncover the truth, you designed a Google Form, meticulously crafting questions to capture people’s genuine food preferences. But IIT Bhilai alone wasn’t enough—food is deeply personal, influenced by upbringing, culture, and individual taste. To make the data even richer, you expanded the survey to include some of your relatives, ensuring a diverse range of opinions.</p>
+            <p>A survey included</p>
+            <ul>
+            <li>105 responses</li>
+            <li>54% male, 46% female</li>
+            <li>Demographics: Gender, Graduation Year</li>
+            <li>Cuisine Preferences: Choice among North Indian, South Indian, Chinese, Italian, Thai, Japanese, American, French, or Other</li>
+            <li>Flavor Preferences: Spicy, Sweet, Sour, Salty, Bitter, Fruity</li>
+            </ul>
+            <p>I floated the form across different groups, eagerly waiting as responses trickled in. Would the results confirm common assumptions, or were hidden culinary surprises lurking in the data???</p>
+            <button onclick="showSection('intro')">Previous</button>
+            <button onclick="showSection('results')">Next</button>
+        </div>
+
+        <div class="section" id="results" style="display: none;">
+            <h2>Unveiling the Culinary Truth: What the Data Showed</h2>
+            <p>Once the numbers were in, the findings were both expected and surprising. North Indian cuisine reigned supreme, capturing over 56% of the votes, proving that butter-laden curries and tandoori delights still ruled most hearts. However, South Indian cuisine came in strong with 20%, showing that dosas and sambhars had their own dedicated following.Meanwhile, global cuisines like Italian (7%) and Chinese (10%) found favor among some, but their appeal remained secondary.</p> 
+            <p>The real surprise, though, came with flavors. While everyone expected spicy food to be popular, the fact that a whopping 68% of people actively preferred it was mind-blowing. Sweet and salty flavors trailed far behind, with sour and bitter barely making a mark.</p>
+            <p>Gender-based differences also emerged...</p>
+            <p>Males showed a stronger inclination toward North and South Indian food.
+            Females had a more diverse distribution, including international cuisines.</p>
+            <img src="Images\output.png" width="400">
+            <img src="Images\output2.png" width="400">
+            <button onclick="showSection('mission')">Previous</button>
+            <button onclick="showSection('analysis')">Next</button>
+        </div>
+
+        <div class="section" id="analysis" style="display: none;">
+            <h2>Digging Deeper: Statistical Analysis & Modeling</h2>
+            <p>A Fiery Surprise: The Love for Spicy Food The assumption that most people love spicy food was confirmed—68.3% of respondents actively preferred spicy flavors.Sweet flavors followed with 17.3% , while salty, sour, bitter, and fruity flavors were niche preferences.
+            <p>But here's where it got even more interesting—**men were significantly more likely to choose spicy foods than women**:
+            - Male respondents: 75% preferred spicy flavors.
+            - Female respondents: 58% preferred spicy flavors.</p><p>Women showed a higher inclination towards sweet flavors, accounting for **25%** of their choices, compared to only **12%** among men.</p>Entropy calculations and Chi-Square tests revealed significant associations between gender and food preferences...</p>
+            <img src="Images\output3.png" width="400">
+            <img src="Images\output4.png">
+            <button onclick="showSection('results')">Previous</button>
+            <button onclick="showSection('conclusion')">Next</button>
+        </div>
+
+        <div class="section" id="conclusion" style="display: none;">
+            <h2>The Conclusion: More Than Just a Survey</h2>
+            <p>It can be proved very much helpfull for a new cafe building up in campus and emerging food services. These insights can influence food industry strategies, health recommendations, and marketing campaigns...</p>
+            <img src="Images\output5.png">
+            <button onclick="showSection('analysis')">Previous</button>
+            <button onclick="showSection('applications')">Next</button>
+        </div>
+
+        <div class="section" id="applications" style="display: none;">
+            <h2>Practical Applications of This Study</h2>
+            <ul>
+                <li>Restaurants can tailor their menus based on dominant preferences.</li>
+                <li>Health experts can design personalized nutrition plans.</li>
+                <li>Food brands can develop gender-targeted marketing strategies.</li>
+            </ul>
+            <button onclick="showSection('conclusion')">Previous</button>
+            <p><strong>Author:</strong> Khushi Sharma | <strong>Roll No:</strong> 12341180</p>
+        </div>
+    </div>
+
+    <script>
+        function showSection(id) {
+            let sections = document.querySelectorAll('.section');
+            sections.forEach(section => section.style.display = 'none');
+            document.getElementById(id).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
